@@ -22,13 +22,19 @@ h1 {
 
 
 
-body, h1, p, a {
+body,
+h1,
+p,
+a,
+button,
+img {
   cursor: url("../img/lego-mouse.cur"),
           url("../img/lego-mouse.png"),
           auto;
 }
 
-a, button, img {
+a,
+button {
   cursor: url("../img/lego-mouse.cur"),
           url("../img/lego-mouse.png"),
           pointer;
