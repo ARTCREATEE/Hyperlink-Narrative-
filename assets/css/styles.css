@@ -3,7 +3,6 @@
 * {
 	font-family: Arial;
 }
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 :root { 
 /* CSS HEX */
@@ -11,9 +10,7 @@
 --pearl-aqua: #83c5beff;
 --alice-blue: #edf6f9ff;
 --almond-silk: #ffddd2ff;
---tangerine-dream: #e29578ff;
-	 --cursor-size: 24px;
-  --background: #f2f2f2;
+--tangerine-dream: #e29578ff;	
 }
 
 html { 
@@ -22,3 +19,12 @@ background-color: var(--stormy-teal);
 h1 { 
  color: var(--almond-silk);
 } 
+#cursor {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  will-change: transform;
+  mix-blend-mode: difference;
+}
