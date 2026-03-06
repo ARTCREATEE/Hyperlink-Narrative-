@@ -21,4 +21,4 @@ h1 {
 } 
 body {
     /* URL to your cursor image, hotspot at (0,0), fallback to auto */
-    cursor: url('images/cursor/assets/img/lego mouse.png') 0 0, auto;
+    cursor: url('images/cursor/assets/img/lego mouse.png') 4 4, auto;
