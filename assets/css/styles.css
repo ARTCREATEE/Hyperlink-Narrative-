@@ -20,5 +20,5 @@ h1 {
  color: var(--almond-silk);
 } 
 body {
-      cursor: url('path-to-image.png'), auto;
+      cursor: url('assets/img/lego mouse.png'), auto;
 }
