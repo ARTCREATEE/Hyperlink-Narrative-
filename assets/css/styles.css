@@ -21,6 +21,7 @@ h1 {
 } 
 
 
+
 body {
-  cursor: crosshair;
+  cursor: url("../img/lego-mouse.png") 0 0, auto;
 }
