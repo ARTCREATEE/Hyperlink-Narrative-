@@ -19,21 +19,6 @@ background-color: var(--stormy-teal);
 h1 { 
  color: var(--almond-silk);
 } 
-body{
-  background-color: #1D1E22;
-  cursor: none;
-}
-
-.rounded{
-  width: 30px;
-  height: 30px;
-  border: 2px solid #fff;
-  border-radius: 50%;
-}
-
-.pointed{
-  width: 7px;
-  height: 7px;
-  background-color: white;
-  border-radius: 50%;
+body {
+    cursor: url('image-path.png') 4 4, auto;
 }
