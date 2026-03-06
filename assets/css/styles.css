@@ -19,4 +19,12 @@ background-color: var(--stormy-teal);
 h1 { 
  color: var(--almond-silk);
 } 
-
+#custom-cursor {
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  mix-blend-mode: difference;
+}
