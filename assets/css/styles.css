@@ -19,6 +19,10 @@ background-color: var(--stormy-teal);
 h1 { 
  color: var(--almond-silk);
 } 
-body {
-    cursor: url(assets/img/lego mouse.png) 4 4, auto;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --cursor-size: 24px;
+  --background: #f2f2f2;
 }
+
