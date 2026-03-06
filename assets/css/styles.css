@@ -26,8 +26,8 @@ body,
 h1,
 p,
 a,
-button,
-img {
+img,
+button {
   cursor: url("../img/lego-mouse.cur"),
           url("../img/lego-mouse.png"),
           auto;
