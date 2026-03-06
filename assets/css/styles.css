@@ -19,3 +19,6 @@ background-color: var(--stormy-teal);
 h1 { 
  color: var(--almond-silk);
 } 
+body {
+    /* URL to your cursor image, hotspot at (0,0), fallback to auto */
+    cursor: url('images/cursor.png') 0 0, auto;
