@@ -21,3 +21,6 @@ background-color: var(--stormy-teal);
 h1 { 
  color: var(--almond-silk);
 } 
+body {
+      cursor: url('path-to-image.png'), auto;
+}
