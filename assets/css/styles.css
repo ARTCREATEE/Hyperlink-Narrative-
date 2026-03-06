@@ -22,7 +22,7 @@ h1 {
 
 
 
-body {
+body, h1, p, a {
   cursor: url("../img/lego-mouse.cur"),
           url("../img/lego-mouse.png"),
           auto;
