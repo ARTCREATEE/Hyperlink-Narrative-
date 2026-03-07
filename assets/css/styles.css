@@ -69,3 +69,12 @@ a {
           url("../img/lego-mouse.png"),
           pointer;
 }
+
+
+
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
