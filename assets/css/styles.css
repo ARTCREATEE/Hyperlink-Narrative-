@@ -28,13 +28,6 @@ p {
   color: var(--tangerine-dream);
 }
 
-a {
-  color: var(--pearl-aqua);
-}
-
-a:hover {
-  color: var(--tangerine-dream);
-}
 
 "font-weight": (
   property: font-weight,
