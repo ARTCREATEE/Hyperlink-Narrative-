@@ -1,61 +1,41 @@
 /* styles.css */
 
 * {
-	font-family: Arial;
+  font-family: Arial;
 }
 
-:root { 
-/* CSS HEX */
---stormy-teal: #006d77ff;
---pearl-aqua: #83c5beff;
---alice-blue: #edf6f9ff;
---almond-silk: #ffddd2ff;
---tangerine-dream: #e29578ff;	
+:root {
+  --stormy-teal: #006d77ff;
+  --pearl-aqua: #83c5beff;
+  --alice-blue: #edf6f9ff;
+  --almond-silk: #ffddd2ff;
+  --tangerine-dream: #e29578ff;
 }
 
-html { 
-background-color: var(--stormy-teal); 
+html {
+  background-color: var(--stormy-teal);
 }
-h1 { 
- color: var(--almond-silk);
-} 
 
-h2 { 
-   color: var(--alice-blue);
+h1 {
+  color: var(--almond-silk);
+}
+
+h2 {
+  color: var(--alice-blue);
 }
 
 p {
   color: var(--tangerine-dream);
 }
 
-
-"font-weight": (
-  property: font-weight,
-  class: fw,
-  values: (
-    lighter: $font-weight-lighter,
-    light: $font-weight-light,
-    normal: $font-weight-normal,
-    medium: $font-weight-medium,
-    semibold: $font-weight-semibold,
-    bold: $font-weight-bold,
-    bolder: $font-weight-bolder
-  )
-
-
 body {
   animation: fadeIn 1s ease-in;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
-
 
 html, body, * {
   cursor: url("../img/lego-mouse.cur"),
