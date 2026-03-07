@@ -24,7 +24,18 @@ h2 {
    color: var(--tangerine-dream);
 }
 
-
+"font-weight": (
+  property: font-weight,
+  class: fw,
+  values: (
+    lighter: $font-weight-lighter,
+    light: $font-weight-light,
+    normal: $font-weight-normal,
+    medium: $font-weight-medium,
+    semibold: $font-weight-semibold,
+    bold: $font-weight-bold,
+    bolder: $font-weight-bolder
+  )
 
 html, body, * {
   cursor: url("../img/lego-mouse.cur"),
