@@ -43,6 +43,19 @@ p {
   )
 
 
+body {
+  animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 html, body, * {
   cursor: url("../img/lego-mouse.cur"),
