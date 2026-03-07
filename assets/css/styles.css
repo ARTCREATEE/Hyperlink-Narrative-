@@ -28,8 +28,8 @@ p {
   color: var(--tangerine-dream);
 }
 
-index {
-  animation: fadeIn 1s ease-in;
+body {
+  
 }
 
 @keyframes fadeIn {
