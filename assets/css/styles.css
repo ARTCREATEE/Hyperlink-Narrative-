@@ -20,6 +20,10 @@ h1 {
  color: var(--almond-silk);
 } 
 
+p { 
+   color: var(--tangerine-dream);
+}
+
 
 
 html, body, * {
