@@ -21,7 +21,19 @@ h1 {
 } 
 
 h2 { 
-   color: var(--tangerine-dream);
+   color: var(--alice-blue);
+}
+
+p {
+  color: var(--tangerine-dream);
+}
+
+a {
+  color: var(--pearl-aqua);
+}
+
+a:hover {
+  color: var(--tangerine-dream);
 }
 
 "font-weight": (
