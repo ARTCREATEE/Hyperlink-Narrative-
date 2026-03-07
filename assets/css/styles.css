@@ -28,7 +28,7 @@ p {
   color: var(--tangerine-dream);
 }
 
-body {
+index {
   animation: fadeIn 1s ease-in;
 }
 
