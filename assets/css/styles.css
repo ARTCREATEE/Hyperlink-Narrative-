@@ -18,14 +18,17 @@ html {
 
 h1 {
   color: var(--almond-silk);
+  font-size: 52px;
 }
 
 h2 {
   color: var(--alice-blue);
+  font-size: 36px;
 }
 
 p {
   color: var(--tangerine-dream);
+  font-size: 28px;
 }
 
 @keyframes fadeIn {
